@@ -12,5 +12,7 @@ class Program
 
     // Exercicio4.Executar();
 
+    Exercicio5.Executar();
+
   }
 }
