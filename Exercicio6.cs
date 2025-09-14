@@ -55,13 +55,13 @@ public static class Exercicio6
 
       case "3":
         // Apenas a Hora;
-        dataFormatada = dataAtual.ToString("HH:mm:ss");
+        dataFormatada = dataAtual.ToString("HH:mm:ss", new CultureInfo("pt-BR"));
         Console.WriteLine($"Data Formatada: {dataFormatada}");
         break;
 
       case "4":
         // A data com o mês por extenso
-        dataFormatada = dataAtual.ToString("dd' de 'MMMMM' de 'yyyy");
+        dataFormatada = dataAtual.ToString("dd' de 'MMMMM' de 'yyyy", new CultureInfo("pt-BR"));
         Console.WriteLine($"Data Formatada: {dataFormatada}");
         break;
 
